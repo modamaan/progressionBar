@@ -14,7 +14,7 @@ function App() {
       <div>Progression Bar</div>
       <ProgressionBar value={value} 
       onComplete={()=>setState(true)} />
-      <span>{success? "Completed!": "Loading.."}</span>
+      <span>{success? "Completed successfully!": "Loading.."}</span>
     </div>
   );
 }
